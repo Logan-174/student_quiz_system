@@ -1,0 +1,10 @@
+INSERT INTO Student VALUES ('44','Duncan Hull','3','databasestudent','database');
+INSERT INTO Staff VALUES ('100','Steward Blakeway', 'databasestaff', 'database');
+INSERT INTO Question_info VALUES ('1','Which SQL statement is used to extract data form a database?','SELECT','OPEN','EXTRACT','GET','SELECT','1');
+INSERT INTO Question_info VALUES ('2','Which SQL statement is used to insert new data in database?','INSERT NEW','INSERT INTO','ADD RECORD','ADD NEW ','INSERT INTO','1');
+INSERT INTO Question_info VALUES ('3','With SQL, how do you select all the records from a table named “Persons” where the value of column “FirstName” is “Peter”?','SELECT * FROM Persons WHERE FirstName<>"Peter"','SELECT[all] FROM Persons WHERE FirstName = "Peter"','SELECT * FROM Persons WHERE FirstNmae = "Peter"','SELECT * FROM Persons WHERE FirstNmae LIKE "Peter"','SELECT*FROM Persons WHERE FirstNmae = "Peter"','1');
+INSERT INTO Quiz VALUES ('34','SQL','Peter Parker','Yes','60 minutes','2020/11/22','3','100');
+INSERT INTO Quiz_stu VALUES ('34','44','3');
+INSERT INTO Question_Number VALUES ('1', '34');
+INSERT INTO Question_Number VALUES ('2', '34');
+INSERT INTO Question_Number VALUES ('3', '34');
